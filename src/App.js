@@ -1,4 +1,4 @@
-import Taskbar from "./components/Taskbar";
+import Taskbar from "./components/taskbar/Taskbar";
 import background from "./images/background.jpg";
 
 function App() {

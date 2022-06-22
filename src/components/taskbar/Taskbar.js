@@ -1,5 +1,6 @@
-import { SearchIcon } from "@heroicons/react/outline";
-import windowsLogo from "../images/windowsLogo.png";
+import { DesktopComputerIcon, SearchIcon } from "@heroicons/react/outline";
+import windowsLogo from "../../images/windowsLogo.png";
+import Item from "./Item";
 
 export default function Taskbar() {
   const handleOnSubmit = (e) => {
@@ -29,6 +30,7 @@ export default function Taskbar() {
           placeholder="Type here to search"
         />
       </form>
+      <Item Icon={DesktopComputerIcon} />
     </div>
   );
 }
