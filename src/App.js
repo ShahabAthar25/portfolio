@@ -4,7 +4,7 @@ import Home from "./pages/Home";
 
 function App() {
   return (
-    <div className="bg-[#040B10] w-screen h-screen text-white">
+    <div className="bg-[#040B10] w-screen h-screen text-white overflow-x-hidden">
       <BrowserRouter>
         <Navbar />
         <Routes>
